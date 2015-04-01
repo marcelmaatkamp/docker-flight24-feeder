@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM marcelmaatkamp/docker-gnuradio-dump1090
 
 RUN apt-get update
 RUN apt-get install -y wget 
